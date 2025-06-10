@@ -301,10 +301,6 @@ h4 {
   border-radius: var(--border-radius-small);
 }
 .burger-button::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
   content: "";
   width: 50%;
   height: 2px;
