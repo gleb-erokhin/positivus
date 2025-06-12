@@ -6,12 +6,18 @@
     border-radius: var(--border-radius-small);
 
     &::after {
-        // @include abs-center;
+        @include abs-center;
 
         content: '';
         width: 50%;
         height: 2px;
-        color: var(--color-dark);
+        background-color: var(--color-dark);
         border-radius: 5px;
+        box-shadow: 0 -8px, 0 8px;
+    }
+
+    @include hover {
+        cursor: pointer;
+        background-color: var(--color-accent);
     }
 }
