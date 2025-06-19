@@ -2,8 +2,6 @@
     &__list {
         display: flex;
     }
-    &__item {
-    }
     &__button {
         @include reset-button;
         @include flex-center;
