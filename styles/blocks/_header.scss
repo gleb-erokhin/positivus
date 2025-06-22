@@ -52,9 +52,7 @@
             }
         }
 
-        &-item {
-        }
-
+        // подчеркивание при наведении,  с 0 до 100% увеличение
         &-link {
             position: relative;
             display: inline-flex;
@@ -86,16 +84,4 @@
         padding-inline: 18px;
         font-size: 16px;
     }
-}
-.logo {
-    &__img {
-    }
-}
-.button {
-    &--transparent {
-    }
-    &__burger-menu {
-    }
-}
-.burger-button {
 }
